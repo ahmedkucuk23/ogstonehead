@@ -1,1 +1,73 @@
 // Specific CSS for your home-page
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+
+
+.font-lac{
+    font-family: 'Lacquer', cursive;
+}
+.video_home{
+    width: 100%;
+}
+.home-main{
+    background-color: #050605;
+}
+.header-home-heading{
+    font-size: 55px;
+}
+.home-heading{
+    color: #fff; 
+    font-size: 20px;
+    text-align: center;
+}
+.monkey_picture{
+    width: 100%;
+}
+#set-height {
+    display: block;
+  }
+  #v0 {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .intro {
+    height: 100vh;
+  }
+  
+  .intro video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .intro h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+  }
+  
+  section {
+    height: 100vh;
+    color: black;
+  }
+  
+  section h1 {
+    padding-top: 300px;
+    text-align: center;
+    font-size: 80px;
+  }
+  
+
+@media(max-width:991px) {
+    .home-main{
+        padding-top: 100px;
+    }
+}
+  
+  
