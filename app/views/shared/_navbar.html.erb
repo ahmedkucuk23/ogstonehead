@@ -1,59 +1,55 @@
 <div class="navbar_mobile">
-<div class="fullPageMenu" id="nav">
+  <div class="fullPageMenu" id="nav">
     <div class="banner">
-        <%= image_tag "giflightin.gif" %>
+      <%= image_tag "giflightin.gif" %>
     </div>
     <div class="nav">
-        <ul>
-            <li><a href="#" data-text="Home">Home</a></li>
-            <li><a href="#" data-text="About">About</a></li>
-            <li><a href="#" data-text="Services">Services</a></li>
-            <li><a href="#" data-text="Team">Team</a></li>
-            <li><a href="#" data-text="Portfolio">Portfolio</a></li>
-            <li><a href="#" data-text="Contact">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="#home" data-text="Home">Home</a></li>
+        <li><a href="#roadmap" data-text="Roadmap">Roadmap</a></li>
+        <li><a href="#team" data-text="Team">Team</a></li>
+        <li><a href="#staking" data-text="Staking">Staking</a></li>
+        <li><a href="#FAQ" data-text="FAQ">FAQ</a></li>
+        <li><a href="#contact" data-text="Contact">Contact</a></li>
+      </ul>
     </div>
-</div>
-<span class="menuicon" id="toggle" onclick="menuToggle()"></span>
+  </div>
+  <span class="menuicon" id="toggle" onclick="menuToggle()"></span>
 </div>
 
 
 
 <div class="navbar_display">
+  <div class="navbar sticky" style="height: 85px; background: rgba(0,0,0,0.6); backdrop-filter: blur(9px);">
+    <div class="container">
 
-<div class="navbar">
-<div class="container">
+      <div class="logo">
+    		<h2 class="fontlac" style="font-family: 'Lacquer', cursive;">OG Stoneheads</h2>
+    	</div>
 	
-	<div class="logo">
-		<h2 class="fontlac" style="font-family: 'Lacquer', cursive;">OG Stoneheads</h2>
-	</div>
-	
-	
-	<ul class="links">
-		<li><a href="#">Home</a></li>
-		<li><a href="#">Roadmap</a></li>
-		<li><a href="#">Team</a></li>
-    <li><a href="#">Staking</a></li>
-    <li><a href="#">FAQ</a></li>
-		<li><a href="#">Contact Us</a></li>
-	</ul>
-	
-	
-	<div class="right">
-		<button>Shop</button>
-	</div>
-	
-	<div class="toggle">
-		<div class="line1"></div>
-		<div class="line2"></div>
-		<div class="line3"></div>
-	</div>
-	
-	</div>
+    	<ul class="links">
+    		<li><a href="#home">Home</a></li>
+    		<li><a href="#roadmap">Roadmap</a></li>
+    		<li><a href="#team">Team</a></li>
+        <li><a href="#">Staking</a></li>
+        <li><a href="#faq">FAQ</a></li>
+    		<li><a href="#contact">Contact</a></li>
+    	</ul>
+
+    	<div class="right">
+    		<button>Shop</button>
+    	</div>
+
+    	<div class="toggle">
+    		<div class="line1"></div>
+    		<div class="line2"></div>
+    		<div class="line3"></div>
+    	</div>
+
+    </div>
+  </div>
 </div>
-
-</div>
-
+<%#
 <script type="text/javascript">
 const navbar = document.querySelector('.navbar');
 
@@ -73,7 +69,7 @@ window.addEventListener('scroll', e => {
   navbar.classList.remove('sticky');
 });
 
-</script>
+</script> %>
 
 
 
