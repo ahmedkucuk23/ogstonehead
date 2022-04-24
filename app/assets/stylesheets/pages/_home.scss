@@ -81,8 +81,92 @@ body{
 
 @media(max-width:991px) {
     .home-main{
-        padding-top: 100px;
+        padding-top: 60px;
     }
 }
   
+
+
+.roadmap{
+  color: white;
+  background: #020202;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+
+.title{
+   font-family: "Lacquer", cursive;
+   font-size:20px;
+}
+
+p {
+  margin: 0 0 13px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #fff;
+}
+
+.center { text-align: center; }
+
+.container {
+  width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.episode {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  position: relative;
+}
+
+.episode__number {
+  font-size: 2.5vw;
+  font-weight: 600;
+  padding: 10px 0;
+  position: sticky;
+  top: 60px;
+  text-align: center;
+  height: calc(5vw + 0px);
+  transition: all 0.2s ease-in;
+}
+
+.episode__content {
+  border-top: 2px solid #fff;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  padding: 15px 0;
+}
+
+.episode__content .title {
+  font-weight: 600
+}
+
+.episode__content .story {
+  line-height: 26px;
+}
+
+@media screen and (max-width: 600px) {
+  .episode__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+ .episode__number {
+    font-size: 4vw;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .episode__content .story {
+    font-size: 15px;
+  }
+  }
+}
+
   
