@@ -1,23 +1,31 @@
+<div class="navbaarasddd" style="background-color: #000; ">
 <div class="navbar_mobile">
+  <div class="container">
+
+  <div class="logo">
+    <a href="/" style="text-decoration: none;color: #fff; position: fixed;  text-shadow: 2px 2px #000;font-size: 40px; top: 10px; z-index: 122222;"> <%= image_tag "logo2.png", style: "width:15%;" %></a>
+  </div>
+  </div>
   <div class="fullPageMenu" id="nav">
     <div class="banner">
       <%= image_tag "giflightin.gif" %>
     </div>
     <div class="nav">
       <ul>
-        <li><a href="#home" data-text="Home">Home</a></li>
-        <li><a href="#roadmap" data-text="Roadmap">Roadmap</a></li>
-        <li><a href="#team" data-text="Team">Team</a></li>
-        <li><a href="#staking" data-text="Staking">Stake</a></li>
+        <li><a href="/#home" data-text="Home">Home</a></li>
+        <li><a href="/#roadmap" data-text="Roadmap">Roadmap</a></li>
+        <li><a href="/#team" data-text="Team">Team</a></li>
+        <li><a href="/stake" data-text="Staking">Stake</a></li>
         <li><a href="/kief" data-text="$KIEF">$KIEF</a></li>
-        <li><a href="#faq" data-text="FAQ">FAQ</a></li>
+        <li><a href="/#faq" data-text="FAQ">FAQ</a></li>
         <li><a href="/contact" data-text="Contact">Contact</a></li>
       </ul>
     </div>
   </div>
   <span class="menuicon" id="toggle" onclick="menuToggle()"></span>
-</div>
 
+</div>
+</div>
 
 
 <div class="navbar_display">
@@ -25,21 +33,21 @@
     <div class="container">
 
       <div class="logo">
-    		<h2 class="fontlac" style="font-family: 'Lacquer', cursive;">OG Stoneheads</h2>
+    		<a href="/" style="text-decoration: none;color: #fff;"><h2 class="fontlac" style="font-family: 'Lacquer', cursive;"><%= image_tag "logo2.png", style: "width:40px;" %> OG Stoneheads</h2></a>
     	</div>
 	
     	<ul class="links">
-    		<li><a href="#home">Home</a></li>
-    		<li><a href="#roadmap">Roadmap</a></li>
-    		<li><a href="#team">Team</a></li>
-        <li><a href="#staking">Stake</a></li>
+    		<li><a href="/#home">Home</a></li>
+    		<li><a href="/#roadmap">Roadmap</a></li>
+    		<li><a href="/#team">Team</a></li>
+        <li><a href="/stake">Stake</a></li>
         <li><a href="/kief">$KIEF</a></li>
-        <li><a href="#faq">FAQ</a></li>
+        <li><a href="/#faq">FAQ</a></li>
     		<li><a href="/contact">Contact</a></li>
     	</ul>
 
     	<div class="right">
-    		<button>Shop</button>
+    		<a href="/shop"><button href="/shop" class="btn" >Shop</button></a>
     	</div>
 
     	<div class="toggle">
