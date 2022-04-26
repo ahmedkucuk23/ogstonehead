@@ -37,6 +37,42 @@ body{
   opacity:1;
 }
 
+.kurac{
+  padding:0;
+}
+
+.slider{
+    margin: auto;
+  overflow:hidden;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-450px * 7))}
+}
+
+.animate-this-element {
+  animation: name-of-animation 5s infinite;
+}
+
+@-webkit-keyframes snowside {
+ 25% {
+    transform: translateX(500px);
+      }
+  75% {
+    transform: translateX(-500px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.picturesalll{
+  animation: scroll 100s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
 
 .home_video{
   width: 100%;
