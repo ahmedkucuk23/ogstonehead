@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get "/kief", to: "pages#kief"
   get "/shop", to: "pages#shop"
   get "/stake", to: "pages#stake"
+  get "/stonelab", to: "pages#stonelab"
 end
